@@ -8,11 +8,11 @@ hunter_add_version(
     VERSION
     "1.15-3"
     URL
-    "/home/ben/dev/tensorflow_build/tensorflow.zip"
+    "/home/jk-dockerslave/tensorflow_build/libtensorflow.tar.gz"
     SHA1
-    7d8e4cfcf9addafcc3e0620985c429372830c0ad
-)
+    d705103cb0a5723c5a18d4ee1b9ab0677fde5e8a
+    )
 
-hunter_pick_scheme(DEFAULT url_sha1_unpack)
+hunter_pick_scheme(DEFAULT url_sha1_unpack_install)
 hunter_download(PACKAGE_NAME tensorflow)
 
